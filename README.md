@@ -15,7 +15,7 @@ Este es un proyecto de **gestión de cursos** desarrollado en PHP. Permite la ad
 
 ## 📷 Captura de Pantalla
 
-![Vista previa del proyecto PHP](Documentos/Foto_GestionaCursosPHP.png)
+![Vista previa del proyecto PHP](imagenes/Foto_GestionaCursosPHP.png)
 
 ## 🔧 Requisitos
 
