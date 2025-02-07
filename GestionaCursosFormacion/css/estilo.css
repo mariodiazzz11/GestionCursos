@@ -1,0 +1,210 @@
+/* --- RESET STYLES --- */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #000; /* Color de texto cambiado a negro */
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+/* --- GENERAL CONTAINER STYLES --- */
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: transparent; /* Fondo eliminado */
+    text-align: center;
+    box-shadow: none; /* Eliminadas sombras */
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #000; /* Color de texto cambiado a negro */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* --- FORM STYLES --- */
+form {
+    display: grid;
+    gap: 15px;
+    padding: 0;
+    background-color: transparent; /* Fondo eliminado */
+    box-shadow: none; /* Eliminadas sombras */
+    border: none; /* Eliminados bordes */
+}
+
+form input[type="text"],
+form input[type="date"],
+form select {
+    padding: 12px 15px;
+    border: 1px solid #ccc; /* Bordes sutiles para hacer visibles los inputs */
+    font-size: 1rem;
+    width: 100%;
+    background-color: #fff; /* Fondo blanco para inputs */
+    color: #000; /* Texto en negro */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="date"]:focus,
+form select:focus {
+    border-color: #3498db; /* Color azul al enfoque */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Sombra suave al enfoque */
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #808080; /* Color cambiado a gris */
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #666; /* Color de hover ajustado */
+}
+
+/* --- BUTTON STYLES --- */
+button {
+    padding: 12px 25px;
+    background-color: #808080; /* Color cambiado a gris */
+    color: white;
+    border: none; /* Eliminados bordes */
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #666; /* Color de hover ajustado */
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: white;
+}
+
+/* --- TABLE STYLES --- */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: none; /* Eliminados bordes */
+    background-color: transparent; /* Fondo eliminado */
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1rem;
+    color: #000; /* Color de texto cambiado a negro */
+    border: none; /* Eliminados bordes */
+}
+
+table th {
+    font-weight: bold;
+    color: #000; /* Cabecera en negro */
+    background-color: transparent; /* Fondo eliminado */
+}
+
+table tr:nth-child(even) {
+    background-color: transparent; /* Fondo eliminado */
+}
+
+table tr:hover {
+    background-color: transparent; /* Hover eliminado */
+}
+
+/* --- ADMIN SPECIFIC STYLES --- */
+.admin-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+    align-items: start;
+    padding: 20px;
+}
+
+.admin-form {
+    padding: 0;
+    background-color: transparent; /* Fondo eliminado */
+    box-shadow: none; /* Eliminadas sombras */
+    border: none; /* Eliminados bordes */
+    margin-top: 0;
+}
+
+.admin-form input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #808080; /* Color cambiado a gris */
+    color: white;
+    cursor: pointer;
+}
+
+.admin-table {
+    padding: 0;
+    background-color: transparent; /* Fondo eliminado */
+    border: none; /* Eliminados bordes */
+}
+
+.admin-table th,
+.admin-table td {
+    font-size: 1rem;
+    padding: 15px;
+    border: none; /* Eliminados bordes */
+    color: #000; /* Texto negro */
+}
+
+.admin-table th {
+    color: #000; /* Texto negro en encabezados */
+    background-color: transparent; /* Fondo eliminado */
+}
+
+.admin-table tr:nth-child(even) {
+    background-color: transparent; /* Fondo eliminado */
+}
+
+.admin-table tr:hover {
+    background-color: transparent; /* Hover eliminado */
+}
+
+.admin-table td a {
+    color: #808080; /* Enlaces en gris */
+    text-decoration: none;
+}
+
+.admin-table td a:hover {
+    text-decoration: underline;
+}
+
+/* --- FOOTER STYLES --- */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1rem;
+    color: #000; /* Color de texto cambiado a negro */
+}
