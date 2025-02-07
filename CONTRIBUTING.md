@@ -9,7 +9,7 @@
 
 2. **Clona el repositorio en tu máquina local** 🖥️:
    - Abre una terminal y ejecuta el siguiente comando:
-     git clone https://github.com/tu-usuario/GestionDeCursos.git
+     git clone https://github.com/tu-usuario/GestionCursos.git
 
 3. **Crea una rama para tus cambios** 🌱:
    - Antes de empezar a trabajar en algo nuevo, asegúrate de crear una nueva rama para tu tarea o corrección de error.
